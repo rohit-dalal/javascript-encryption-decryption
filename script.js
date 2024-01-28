@@ -1,26 +1,26 @@
-function togglecheckbox(which) {
-  if (which == 1) {
-    let checkbox = document.getElementById("encrypt_box_check");
-    let inputBox = document.getElementById("encrypt_key_box");
+// function togglecheckbox(which) {
+//   if (which == 1) {
+//     let checkbox = document.getElementById("encrypt_box_check");
+//     let inputBox = document.getElementById("encrypt_key_box");
 
-    if (checkbox.checked) {
-      inputBox.style.display = "inline";
-    } else if (checkbox.checked == false) {
-      inputBox.style.display = "none";
-    }
-  }
-  else if (which == 2) {
-    let checkbox_ = document.getElementById("decrypt_box_check");
-    let inputBox_ = document.getElementById("decrypt_key_box");
+//     if (checkbox.checked) {
+//       inputBox.style.display = "inline";
+//     } else if (checkbox.checked == false) {
+//       inputBox.style.display = "none";
+//     }
+//   }
+//   else if (which == 2) {
+//     let checkbox_ = document.getElementById("decrypt_box_check");
+//     let inputBox_ = document.getElementById("decrypt_key_box");
 
-    if (checkbox_.checked) {
-      inputBox_.style.display = "inline";
-    } else if (checkbox_.checked == false) {
-      inputBox_.style.display = "none";
-    }
-  }
+//     if (checkbox_.checked) {
+//       inputBox_.style.display = "inline";
+//     } else if (checkbox_.checked == false) {
+//       inputBox_.style.display = "none";
+//     }
+//   }
 
-}
+// }
 
 
 
