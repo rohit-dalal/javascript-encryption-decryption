@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.info {
+  background-color: #fff;
+  color: #77838f;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: auto;
+}
+
+.info>p {
+  margin: 0 50px 0 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.5em;
+  word-spacing: 0.5px;
+}
+
+textarea {
+  resize: vertical;
+  width: 93%;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+section>.secret_key_box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 93%;
+  margin: 7px 0 7px;
+}
+
+label:hover {
+  cursor: text;
+}
+
+input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

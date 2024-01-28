@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Text Encryption & Decryption online</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Text Encryption & Decryption</h1>
+  </header>
+  <div class="info">
+    <p>This online tool provides encryption and decryption of any text with a random key. This <b>tool uses a random
+        key</b> which nobody knows and hence provides an utmost security of any text that you want to protect.
+      Also, you can try this AES encryption if you want to encrypt any text with a key of your choice.
+      Any plain-text input or output that you enter, or random generate <b>key is not stored on this site</b>, this tool
+      uses HTTPS URL to ensure that text cannot be stolen.
+    </p>
+  </div>
+
+  <main>
+    <section class="section">
+      <h2>Encryption</h2>
+      <textarea id="encryptInput" placeholder="Enter text to encrypt"></textarea>
+
+      <!-- <input type="checkbox" id="encrypt_box_check" onclick="togglecheckbox(1)"> -->
+      <!-- <label for="encrypt_box_check">Encrypt with a custom secret key</label><br> -->
+      <!-- <input type="password" id="encrypt_key_box" class="secret_key_box" name="encrypt_key_box" placeholder="Encryption secret key" hidden><br> -->
+
+      <button onclick="encrypt()">Encrypt</button>
+      <textarea id="encryptOutput" placeholder="Encrypted text will appear here" readonly></textarea>
+    </section>
+
+    <section class="section">
+      <h2>Decryption</h2>
+      <textarea id="decryptInput" placeholder="Enter text to decrypt"></textarea>
+
+      <!-- <input type="checkbox" id="decrypt_box_check" onclick="togglecheckbox(2)"> -->
+      <!-- <label for="decrypt_box_check">Decrypt with a custom secret key</label><br> -->
+      <!-- <input type="password" id="decrypt_key_box" class="secret_key_box" name="decrypt_key_box" placeholder="Decryption secret key" hidden><br> -->
+
+      <button onclick="decrypt()">Decrypt</button>
+      <textarea id="decryptOutput" placeholder="Decrypted text will appear here" readonly></textarea>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
